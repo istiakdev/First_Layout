@@ -93,6 +93,22 @@ a{
     text-transform: uppercase;
     line-height: 70px;
     transition: .4s;
+    display: inline-block;
+    position: relative;
+}
+.menuTwo ul li a::after{
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background: red;
+    content: "";
+    left: 8%;
+    bottom: 37%;
+    transition: .4s;
+}
+.menuTwo ul li a:hover::after{
+    width: 80%;
+
 }
 
 .menuTwo ul li a:hover{
@@ -110,6 +126,7 @@ a{
     align-items: center;
     text-transform: uppercase;
     transition: .4s;
+    position: relative;
 }
 
 .btnTwo a:hover{
@@ -117,6 +134,7 @@ a{
     font-size: 15px;
 
 }
+
 .btnTwo a i{
     margin-left: 9px;
      text-align: center;
