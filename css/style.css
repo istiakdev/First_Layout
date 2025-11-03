@@ -1,0 +1,125 @@
+/* All Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family:"Poppins", sans-serif;
+} 
+.container{
+    width: 1210px;
+    margin: 0 auto;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* All Common Css End */
+
+/* Header Part Start  */
+#headerPart{
+    background: #F9F9FC;
+}
+#headerPart .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a{
+    padding: 0px 25px;
+    color: #000000;
+    line-height: 70px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.btn a{
+    padding: 10px 20px;
+    background: #5E3BEE;
+    color:#FFFFFF;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+}
+.btn a i{
+    margin-left: 9px;
+     text-align: center;
+    align-items: center;
+}
+
+/* Header Part End */
+
+/* Header Part Two Start  */
+#headerPartTwo{
+    margin-top: 100px;
+    background-color:#F9F9FC;
+}
+
+.containerTwo{
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.menuTwo ul{
+    display: flex;
+    align-items: center;
+}
+
+.containerTwo{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+
+}
+
+.menuTwo ul li a{
+    padding: 0px 25px;
+    color: black;
+    font-weight: 400;
+   font-size: 14px;
+    text-transform: uppercase;
+    line-height: 70px;
+    transition: .4s;
+}
+
+.menuTwo ul li a:hover{
+    color: red;
+}
+
+.btnTwo a{
+    padding: 10px 20px;
+    background: #5E3BEE;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.btnTwo a:hover{
+    background: red;
+    font-size: 15px;
+
+}
+.btnTwo a i{
+    margin-left: 9px;
+     text-align: center;
+    align-items: center;
+}
+/* Header Part Two End */
